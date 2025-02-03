@@ -1,25 +1,15 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   HomeIcon,
-  MenuIcon,
-  XIcon,
-  SchoolIcon,
   BuildingIcon,
-  UsersIcon,
   CheckCircleIcon,
   WrenchIcon,
   // PipeIcon,
   // CompassIcon,
   BoltIcon,
-  ShieldIcon,
-  PhoneIcon,
-  MailIcon,
-  FacebookIcon,
-  TwitterIcon,
-  InstagramIcon,
-  LinkedinIcon,
+ 
 } from "lucide-react";
 
 import Footer from "../components/Footer";

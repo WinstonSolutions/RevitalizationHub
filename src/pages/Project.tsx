@@ -2,9 +2,6 @@
 
 import React from "react";
 import {
-  Home,
-  Menu,
-  X,
   MapPin,
   Calendar,
   Clock,

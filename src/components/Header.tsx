@@ -1,6 +1,6 @@
 // src/components/Header/index.tsx
-import React, { useState } from "react";
-import { HomeIcon, MenuIcon, XIcon } from "lucide-react";
+import { useState } from "react";
+import { MenuIcon, XIcon } from "lucide-react";
 
 interface NavItem {
   label: string;
