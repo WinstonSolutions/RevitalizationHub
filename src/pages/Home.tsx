@@ -19,11 +19,7 @@ interface NavItem {
   href: string;
 }
 
-interface ProjectCard {
-  image: string;
-  title: string;
-  description: string;
-}
+
 
 interface MapLegendItem {
   color: string;
@@ -128,13 +124,6 @@ const partners = [
   },
 ];
 
-const navItems: NavItem[] = [
-  { label: "Home", href: "/" },
-  { label: "Projects", href: "projects" },
-  { label: "Students", href: "students" },
-  { label: "Property Owners", href: "owners" },
-];
-
 // Add this interface with your other interfaces
 interface Testimonial {
   id: number;
@@ -182,14 +171,11 @@ const testimonials: Testimonial[] = [
   },
 ];
 
-const mapLegend: MapLegendItem[] = [
-  { color: "bg-red-500", label: "Vacant Buildings", count: 15 },
-  { color: "bg-green-500", label: "In Progress", count: 8 },
-  { color: "bg-blue-500", label: "Completed", count: 25 },
-];
+
 
 export default function Home() {
-  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+  // Remove unused state
+  // const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   return (
     <main className="min-h-screen bg-white">

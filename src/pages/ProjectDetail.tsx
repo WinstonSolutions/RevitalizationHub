@@ -36,7 +36,7 @@ const projects = [
 
 const ProjectDetail = () => {
   const { id } = useParams();
-  const projectId = parseInt(id);
+  const projectId = id ? parseInt(id) : 0;
 
   const project = projects.find((project) => project.id === projectId);
 
