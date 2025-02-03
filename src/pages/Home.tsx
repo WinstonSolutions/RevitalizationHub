@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import {
   HomeIcon,
   BuildingIcon,
@@ -9,23 +8,10 @@ import {
   // PipeIcon,
   // CompassIcon,
   BoltIcon,
- 
 } from "lucide-react";
 
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-interface NavItem {
-  label: string;
-  href: string;
-}
-
-
-
-interface MapLegendItem {
-  color: string;
-  label: string;
-  count: number;
-}
 
 interface GalleryItem {
   id: number;
@@ -170,8 +156,6 @@ const testimonials: Testimonial[] = [
     projectType: "Mixed-Use Development",
   },
 ];
-
-
 
 export default function Home() {
   // Remove unused state
